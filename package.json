@@ -1,5 +1,5 @@
 {
-    "name": "react-panel",
+    "name": "@cbmeeks/react-panel",
     "version": "1.0.0",
     "description": "A simple React JS component for displaying a panel.  Utilized TailwindCSS.",
     "main": "src/index.js",
