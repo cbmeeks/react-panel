@@ -1,9 +1,10 @@
 {
     "name": "@cbmeeks/react-panel",
-    "version": "1.0.0",
+    "version": "1.0.6",
     "description": "A simple React JS component for displaying a panel.  Utilized TailwindCSS.",
     "main": "src/index.js",
     "scripts": {
+        "build": "./node_modules/.bin/babel src --out-file index.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
@@ -22,6 +23,10 @@
     },
     "homepage": "https://github.com/cbmeeks/react-panel#readme",
     "devDependencies": {
+        "@babel/cli": "^7.17.0",
+        "@babel/core": "^7.17.2",
+        "@babel/preset-env": "^7.16.11",
+        "@babel/preset-react": "^7.16.7",
         "autoprefixer": "^10.4.2",
         "postcss": "^8.4.6",
         "react": "^17.0.2",
